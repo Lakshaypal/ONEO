@@ -243,7 +243,7 @@ const Dashboard: React.FC<DashboardProps> = ({ setView, isOnoe, setIsOnoe, selec
                </div>
              </div>
              <button onClick={() => setView(ViewType.FINANCIAL)} className="px-10 py-5 bg-slate-900 text-white rounded-[2rem] text-[11px] font-black uppercase tracking-widest hover:bg-blue-600 transition-all shadow-xl shadow-slate-200 flex items-center gap-3">
-               Full Fiscal Audit <ArrowRight size={18} />
+               Full Financial Analysis <ArrowRight size={18} />
              </button>
           </div>
         </div>

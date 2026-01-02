@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import Layout from './components/Layout';
-import Dashboard from './components/Dashboard';
-import TimelineView from './components/TimelineView';
-import ConstitutionalView from './components/ConstitutionalView';
-import ScenarioBuilder from './components/ScenarioBuilder';
-import FinancialImpact from './components/FinancialImpact';
-import AdministrativeImpact from './components/AdministrativeImpact';
-import GovernanceImpact from './components/GovernanceImpact';
-import DataSources from './components/DataSources';
-import { ViewType } from './types';
+import Layout from './Layout';
+import Dashboard from './Dashboard';
+import TimelineView from './TimelineView';
+import ConstitutionalView from './ConstitutionalView';
+import ScenarioBuilder from './ScenarioBuilder';
+import FinancialImpact from './FinancialImpact';
+import AdministrativeImpact from './AdministrativeImpact';
+import GovernanceImpact from './GovernanceImpact';
+import DataSources from './DataSources';
+import { ViewType } from '../types';
 
 export type ScenarioType = 'NORMAL' | 'EARLY_DISSOLUTION' | 'HUNG_ASSEMBLY' | 'PRESIDENTS_RULE';
 
