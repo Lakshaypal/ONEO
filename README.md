@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Live_on_Vercel-success?style=for-the-badge&logo=vercel) ![Tech](https://img.shields.io/badge/Tech-React_|_Vite_|_Gemini_AI-blue?style=for-the-badge) ![Domain](https://img.shields.io/badge/Domain-Policy_Tech-orange?style=for-the-badge)
 
-**ONEO (Election Synchronization Feasibility & Impact Simulator)** is a powerful, data-driven decision support platform. It is designed to simulate, visualize, and quantify the constitutional, financial, and administrative impacts of implementing simultaneous elections in India.
+**ONEO (Election Synchronization Feasibility & Impact Simulator)** is a comprehensive decision-support platform designed to simulate, visualize, and quantify the constitutional, financial, and administrative impacts of implementing simultaneous elections in India.
 
 ---
 
@@ -12,74 +12,82 @@ Explore the deployed platform here:
 
 ---
 
-## 🚨 The Real-World Challenge
-India operates on a **staggered election cycle**. At any given moment, a state is preparing for polls. This results in:
-*   💸 **Fiscal Drain:** Estimated **₹60,000 Cr+** spent every 5-year cycle.
-*   🛑 **Policy Paralysis:** Frequent imposition of the **Model Code of Conduct (MCC)** halts development work.
-*   👮 **Administrative Fatigue:** Teachers and security forces are constantly diverted from their primary duties.
+## 🌟 Key Simulation Modules
 
-**ONEO** solves this by providing a digital sandbox to visualize the transition to a synchronized framework.
+### 1. 📊 Overview Dashboard
+A central command center providing a side-by-side view of key governance indicators under existing election cycles versus synchronized elections.
+*   **Current vs ONOE Comparison:** Side-by-side view of key governance indicators.
+*   **Election Expenditure:** Compares annual election-related spending with projected costs under ONOE.
+*   **Administrative Man-Days:** Shows reduction in repeated deployment of officials and staff.
+*   **MCC Paralysis Impact:** Quantifies days of Model Code of Conduct and associated policy standstill.
+*   **Distribution Index:** Measures how evenly election-related burden is spread across years and regions.
+*   **Comparison Matrix:** Displays differences in Annual Election Expenditure, Average MCC Days per Cycle, Security Personnel Mobilization, and EVM/VVPAT Requirements.
+*   **Efficiency Gains:** Highlights savings and operational relief in personnel deployment and security mobilization.
+*   **15-Year Fiscal Viability Graph:** Assesses whether ONOE is financially sustainable over time.
+*   **Regional Synchronization Hub:** Visualizes state-wise readiness and alignment patterns.
+*   **Legislative Feasibility:** Tracks Constitutional Amendment Score and Administrative Relief.
+
+### 2. ⏳ Timeline Simulator
+A dynamic visualizer allowing user selection of a State, base election year, and analysis period (5 / 10 / 15 years).
+*   **Parallel Timelines:** Displays two clear timelines:
+    *   **Current System:** Elections occurring at different points in time.
+    *   **ONOE Scenario:** Elections aligned as per synchronization model.
+*   **Total Voter Mobilizations:** Shows how often voters are required to participate across the selected period.
+*   **Governance Pause Days:** Captures cumulative days affected by the Model Code of Conduct.
+*   **Why It Matters:** Highlights election frequency vs. governance continuity and supports evidence-based decisions on administrative efficiency.
+
+### 3. 💰 Financial Impact
+A deep dive into the fiscal implications of democracy.
+*   **User Controls:** Select analysis period and scope (specific State + Lok Sabha, or all including local bodies).
+*   **Cost Comparison:**
+    *   **Current Spending (Baseline):** Existing election expenditure.
+    *   **New System Cost (ONOE):** Projected cost with synchronization.
+    *   **Total Money Saved:** Estimated financial benefit from consolidation.
+*   **Expenditure Benchmarking Graph:** Shows trends, peaks, and savings over time.
+*   **Why It Matters:** Quantifies short-term transition costs vs. long-term savings to support budget planning.
+
+### 4. 🛡️ Administrative Load
+Focuses on the human resource strain on government machinery.
+*   **Poll Events Conducted:** Number of elections held under current system vs ONOE.
+*   **Cumulative MCC Days:** Total days impacted by the Model Code of Conduct.
+*   **Administrative Man-Days:** Total staff deployment required for conducting elections.
+*   **Educational Resilience:** Measures disruption to schools and educational institutions.
+*   **Burden Distribution Graph:** Visualizes how election workload is spread across years.
+*   **Why It Matters:** Demonstrates operational efficiency gains and visible impact on education continuity.
+
+### 5. 🏛️ Governance & MCC Simulator
+Analyzes the friction caused by frequent polls.
+*   **Cumulative MCC Burden:** Total days under the Model Code of Conduct showing governance constraints.
+*   **Total Poll Impositions:** Number of elections impacting normal administration.
+*   **Average Annual Downtime:** Mean number of days per year when policy implementation is slowed.
+*   **Stability Index:** Quantitative measure of administrative and policy continuity.
+*   **Government Friction Audit Graph:** Visual representation of stress points and operational friction.
+*   **Why It Matters:** Translates complex administrative disruption into clear, actionable metrics.
+
+### 6. ⚖️ Legal & Constitutional
+A roadmap for the necessary legal framework.
+*   **Need for Amendments:** Highlights required changes to Articles 83, 85, 172, 174, 356.
+*   **Primary Legal Blockers:** Addresses term mismatches, early dissolution scenarios, and governance conflicts.
+*   **Proposed Solutions:** Visualizes Kovind Committee Recommendations (e.g., aligning terms, contingency provisions).
+*   **Purpose:** Links policy design with operational feasibility.
+
+### 7. 🤖 Scenario Builder (AI-Powered)
+The "Brain" of the platform allowing "What-If" experimentation.
+*   **Flexible Inputs:** Allows selection of Current System, Partial ONOE, or Full ONOE scenarios.
+*   **Integrated Analysis:** Automatically generates **AI-driven policy briefs** using Google Gemini.
+*   **Comparative Insights:** Provides instant analysis on Financial Impact, Administrative Load, Governance Indicators, and Legal Considerations.
+*   **Output:** Decision-ready AI brief and visual dashboards.
 
 ---
 
-## 🌟 Key Simulation Features
+## 🛠️ Tech Stack
 
-### 1. 📊 Dashboard (Executive Overview)
-The central command center providing a "Commander's View" of the nation.
-*   **KPI Tracking:** Real-time metrics on Expenditure Savings, Man-Days Saved, and Disruption Index.
-*   **State Alignment Grid:** Visual status of every Indian state (e.g., UP, Maharashtra), showing which are ready for synchronization and which require term curtailment.
-*   **Readiness Gauge:** A visual meter showing the legislative and logistical readiness of the nation.
-
-### 2. 🤖 Scenario Builder (AI-Powered)
-The "Brain" of the platform, powered by **Google Gemini AI**.
-*   **What-If Analysis:** Allows users to select different models (Full Sync vs. Partial Sync) and time horizons (5, 10, 15 years).
-*   **AI Policy Insights:** Generates a **plain-language impact report**. It translates complex data into simple explanations (e.g., *"Why does this save money?"*) for non-technical government officials.
-*   **Wizard Interface:** A step-by-step guide to building custom election scenarios.
-
-### 3. ⏳ Timeline View
-A dynamic Gantt-style visualization tool.
-*   **Visual Comparison:** Directly compares the current **Fragmented Cycle** (staggered bars) against the proposed **Synchronized Framework** (aligned bars).
-*   **State Drilling:** Users can filter by specific states to see how their individual election years shift under ONOE (target year 2029).
-
-### 4. 💸 Financial Impact
-A deep dive into the economics of democracy.
-*   **CAPEX vs. OPEX:** Distinguishes between the one-time cost of buying new EVMs (CAPEX) versus the massive recurring savings in logistics and security (OPEX).
-*   **Savings Projection:** Calculates net savings over a 15-year horizon using ECI expenditure benchmarks.
-
-### 5. 🛡️ Administrative Impact
-Focuses on the human resource strain on the government machinery.
-*   **Man-Days Calculator:** Quantifies the reduction in deployment days for polling staff and teachers.
-*   **Security Logistics:** Visualizes the reduction in the cross-country movement of Central Armed Police Forces (CAPF).
-*   **School Closure Tracker:** Estimates the number of educational days reclaimed by reducing poll disruptions.
-
-### 6. 🏛️ Governance Impact (MCC Analyzer)
-Analyzes the impact on development and policy continuity.
-*   **MCC Paralysis Meter:** Calculates the total number of days the Model Code of Conduct is in force under the current vs. ONOE systems.
-*   **Stability Index:** Measures the increase in uninterrupted governance periods available for welfare scheme implementation.
-
-### 7. ⚖️ Constitutional View
-The legal backbone of the simulator.
-*   **Amendment Roadmap:** An interactive guide to the specific Articles (83, 172, 356) that need amendment.
-*   **Legal Feasibility:** Breakdowns of the specific legal challenges and proposed solutions by the Law Commission/Kovind Committee.
-
----
-
-## 🛠️ Tech Stack & Architecture
-
-*   ⚛️ **Frontend:** React 19 (Functional Components)
-*   ⚡ **Build Tool:** Vite (High-performance tooling)
-*   🎨 **Styling:** Tailwind CSS (Glassmorphism & Responsive Design)
-*   📈 **Charts:** Recharts (Data visualization)
-*   🧠 **AI Engine:** Google Gemini 1.5 Pro (via Google GenAI SDK)
-*   ✨ **Icons:** Lucide React
-
----
-
-## 📊 Data & Methodology
-The simulator is not random; it relies on verified public benchmarks:
-*   **Expenditure Data:** Election Commission of India (ECI) Reports (2019, 2024).
-*   **Constitutional Framework:** High-Level Committee Report on ONOE (March 2024).
-*   **Historical Cycles:** IndiaVotes database for state election timelines.
+*   **Frontend:** React 19 (Functional Components)
+*   **Build Tool:** Vite (High-performance tooling)
+*   **Styling:** Tailwind CSS (Glassmorphism & Responsive Design)
+*   **Visualization:** Recharts (Data visualization)
+*   **AI Engine:** Google Gemini 1.5 Pro (via Google GenAI SDK)
+*   **Icons:** Lucide React
 
 ---
 
